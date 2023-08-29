@@ -1,0 +1,96 @@
+body {
+    text-align: center;
+    background-color: aqua;
+}
+
+h1 {
+    text-align: center;
+    font-family: Alegreya;
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+li,
+p {
+    font-size: 20px;
+}
+
+h5 {
+    text-align: center;
+}
+.recipebody {
+    text-align: justify;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    width: 200px;
+    height: auto;
+}
+
+img {
+    width: 100px;
+    height: auto;
+}
+
+.box {
+    background: #fff;
+    line-height: 30px;
+    font-weight: bold;
+    color: #009688;
+    padding: 40px;
+    box-shadow: 
+    inset #809688 0 0 0 5px,
+    inset #059c8e 0 0 0 1px,
+    inset #0cab9c 0 0 0 10px,
+    inset #1fbdae 0 0 0 11px,
+    inset #8ce9ff 0 0 0 16px,
+    inset #48e4d6 0 0 0 17px,
+    inset #e5f9f7 0 0 0 21px,
+    inset #bfecf7 0 0 0 22px;
+    text-shadow: 3px 3px 1px #bfecf7;
+}
+
+input[type=checkbox] {
+    position: relative;
+    cursor: pointer;
+}
+
+input[type=checkbox]:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 0;
+    left: 0;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: aquamarine;
+    padding: 1px;
+}
+
+input[type=checkebox]:checked::before {
+    background-color: aqua;
+}
+
+input[type=checkbox]:checked::after {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 10px;
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45def);
+    position: absolute;
+    top: 2px;
+    left: 6px;
+}
